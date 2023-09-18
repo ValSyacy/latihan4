@@ -12,7 +12,7 @@ keliling = 2 * panjang + lebar
 
 print "luas" dan "keliling
 
-# Flowchart Luas Persegi Panjang #
+# Flowchart Luas dan Keliling Persegi Panjang #
 
 ```mermaid
 flowchart TD;
@@ -22,6 +22,7 @@ flowchart TD;
     D-->E[/luas, keliling/]
     E-->F([selesai])
 ```
+# Code Java Luas dan Keliling Persegi Panjang #
     import java.util.Scanner;
 
     public class PersegiPanjang {
@@ -47,27 +48,28 @@ flowchart TD;
 
 # Pseudocode Luas dan Keliling Lingkaran #
 
-Deklarasi double pi, jari-jari, luas, keliling\
-input nilai pi = 3.14
+Deklarasi double π, jari-jari, luas, keliling\
+input nilai π = 3.14
 
 print "nilai jari-jari"\
 input nilai jari-jari
 
-luas = pi * jari-jari * jari jari\
-keliling = 2 * pi * jari-jari
+luas = π * jari-jari * jari jari\
+keliling = 2 * π * jari-jari
 
 print "luas" dan "keliling"
 
-# Flowchart Luas dan Keliling Persegi Lingkaran #
+# Flowchart Luas dan Keliling Lingkaran #
 
 ```mermaid
 flowchart TD;
-    A([Mulai])-->B{{double pi, jari-, luas, keliling}}
+    A([Mulai])-->B{{double π, jari-, luas, keliling}}
     B-->C[/jari-jari/]
-    C-->D(luas = pi * jari-jari dan keliling = 2 * pi * jari-jari)
+    C-->D(luas = π * jari-jari dan keliling = 2 * π * jari-jari)
     D-->E[/luas, keliling/]
     E-->F([selesai])
 ```
+# Code Java Luas dan Keliling Lingkaran #
 
     import java.util.Scanner;
 
@@ -77,13 +79,13 @@ flowchart TD;
             Scanner input = new Scanner(System.in);
         
             double jari_jari, luas, keliling;
-            double pi = 3.14;
+            double π = 3.14;
 
             System.out.println("Masukkan Nilai Jari-Jari");
             jari_jari=input.nextDouble();
         
-            luas = pi * jari_jari * jari_jari;
-            keliling = 2 * pi * jari_jari;
+            luas = π * jari_jari * jari_jari;
+            keliling = 2 * π * jari_jari;
 
             System.out.println("\nHasil Luas Adalah = " +luas);
             System.out.println("Hasil Keliling Adalah = " +keliling);
@@ -91,7 +93,7 @@ flowchart TD;
     }
 
 
-# Pseudocode Luas Segitiga #
+# Pseudocode Luas dan Keliling Segitiga #
 
 Deklarasi double alas, tinggi, sisi, luas, keliling
 
@@ -115,6 +117,7 @@ flowchart TD;
     D-->E[/luas, keliling/]
     E-->F([selesai])
 ```
+# Code Java Luas dan Keliling Segitiga #
 
     import java.util.Scanner;
 

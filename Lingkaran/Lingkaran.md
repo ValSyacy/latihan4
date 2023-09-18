@@ -11,7 +11,7 @@ keliling = 2 * π * jari-jari
 
 print "luas" dan "keliling"
 
-# Flowchart Luas dan Keliling Persegi Lingkaran #
+# Flowchart Luas dan Keliling Lingkaran #
 
 ```mermaid
 flowchart TD;
